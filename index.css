@@ -1,0 +1,23 @@
+.wrapper{
+    width: 400px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.wrapper label{
+    display: block;
+    margin: 15px 0;
+}
+body{
+    background-color:rgb(243, 191, 243) ;
+
+}
+.wrapper label input{
+    font-size: 12px;
+    padding: 0.5em;
+}
+.wrapper input[type ="submit"]{
+    font-size: 20px;
+    background-color: rgb(233, 139, 52);
+    margin : 0 100px;
+    padding : 5px 40px
+}
