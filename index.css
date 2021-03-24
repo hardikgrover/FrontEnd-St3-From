@@ -1,23 +1,114 @@
-.wrapper{
-    width: 400px;
-    max-width: 90%;
-    margin: 0 auto;
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Calibri, sans-serif;
 }
-.wrapper label{
-    display: block;
-    margin: 15px 0;
+
+body {
+  min-height: 100vh;
+  background-color: rgb(241, 158, 241);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-body{
-    background-color:rgb(243, 191, 243) ;
+
+.container {
+  background-color:  rgb(241, 158, 241);
+  border-radius: 5px;
 
 }
-.wrapper label input{
-    font-size: 12px;
-    padding: 0.5em;
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
 }
-.wrapper input[type ="submit"]{
-    font-size: 20px;
-    background-color: rgb(233, 139, 52);
-    margin : 0 100px;
-    padding : 5px 40px
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  margin: 2rem 0px 1.5rem;
+  padding: 5px 5px;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.inp {
+  font-size: 1em;
+  margin: 0.5em 0px;
+  padding: 0.5em;
+  border: 1px solid gray;
+  font-family: Calibri, sans-serif;
+}
+
+.btn {
+  margin: 3em auto 1em;
+  padding: 1em 0.5em;
+  font-size: 1em;
+  font-family: Calibri, sans-serif;
+  background-color: rgb(219, 117, 34);
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+
+  transition: filter 150ms ease;
+}
+
+.btn2 {
+  
+  border: 1px solid black;
+  color: var(--clr);
+  
+  padding: 2px;
+  font-size: 1em;
+  
+  cursor: pointer;
+  
+}
+.btn2 {
+  background-color: yellow;
+  
+}
+
+.hidetable {
+  display: none;
+}
+
+.showtable {
+  margin: 2em;
+  padding: 0.5em;
+  margin-bottom: 3em;
+}
+.showtable th,
+td {
+  padding: 5px;
+  
+}
+
+.tableContainer {
+  max-width: 97vw;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    min-height: 100%;
+  }
+  .btn {
+    max-width: 150px;
+  }
+  body {
+    font-size: 0.9em;
+  }
+}
+.userInput{
+  background-color: grey;
 }
