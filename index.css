@@ -7,14 +7,7 @@
   font-family: Calibri, sans-serif;
 }
 
-body {
-  min-height: 100vh;
-  background-color: rgb(241, 158, 241);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .container {
   background-color:  rgb(241, 158, 241);
@@ -39,28 +32,9 @@ body {
   margin-right: 10px;
 }
 
-.inp {
-  font-size: 1em;
-  margin: 0.5em 0px;
-  padding: 0.5em;
-  border: 1px solid gray;
-  font-family: Calibri, sans-serif;
-}
 
-.btn {
-  margin: 3em auto 1em;
-  padding: 1em 0.5em;
-  font-size: 1em;
-  font-family: Calibri, sans-serif;
-  background-color: rgb(219, 117, 34);
-  border: 1px solid black;
-  color: white;
-  cursor: pointer;
-  width: 100%;
-  max-width: 250px;
 
-  transition: filter 150ms ease;
-}
+
 
 .btn2 {
   
@@ -111,4 +85,33 @@ td {
 }
 .userInput{
   background-color: grey;
+}
+body {
+  min-height: 100vh;
+  background-color: rgb(241, 158, 241);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inp {
+  font-size: 1em;
+  margin: 0.5em 0px;
+  padding: 0.5em;
+  border: 1px solid gray;
+  font-family: Calibri, sans-serif;
+}
+.btn {
+  margin: 3em auto 1em;
+  padding: 1em 0.5em;
+  font-size: 1em;
+  font-family: Calibri, sans-serif;
+  background-color: rgb(219, 117, 34);
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+
+  transition: filter 150ms ease;
 }
